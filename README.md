@@ -7,8 +7,8 @@ To use the theme copy paste the line below into "Dashboard>General>Custom CSS" a
 @import url('https://ctalvio.github.io/Kaleidochromic/default_style.css');
 ```
 
-![four](screenshots/4.png)
 ![five](screenshots/5.png)
+![four](screenshots/4.png)
 
 ## Features
 - Themes **EVERYTHING**

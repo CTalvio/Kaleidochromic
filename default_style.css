@@ -20,7 +20,7 @@
 }
 
 .subtitleappearance-preview {
-  background: linear-gradient(140deg,rgba(var(--accent),#111) !important;
+  background: linear-gradient(140deg,rgba(var(--accent)),#111) !important;
 }
 .navMenuOption-selected, .selectionCommandsPanel {
     background: rgba(var(--accent), 0.8) !important;

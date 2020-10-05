@@ -84,7 +84,12 @@ body, h1, h2, h3, h4 {
 
 /*Style backdrop*/
 .backdropImage {
-  filter: blur(30px) saturate(120%) contrast(120%) brightness(45%);
+  filter: blur(18px) saturate(120%) contrast(120%) brightness(45%);
+}
+@media all and (max-width: 32em) {
+  .itemBackdrop {
+    filter: blur(18px) saturate(200%) contrast(160%) brightness(25%);
+  }
 }
 
 /*Colors for loading spinner and other stuff*/

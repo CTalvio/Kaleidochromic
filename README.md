@@ -71,6 +71,7 @@ This is now integrated into the theme and requires no additional import line, an
 ![one](screenshots/1.png)
 ![two](screenshots/2.png)
 ![three](screenshots/3.png)
+![five](screenshots/5.png)
 
 
 ## Using with reverse proxy

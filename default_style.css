@@ -3,10 +3,13 @@
 :root {--accent: 98, 121, 205;}
 :root {--rounding: 12px;}
 
+.dialog, .mainDrawer, .toast, .nowPlayingBarTop {
+  background-color: rgba(0, 0, 0, 0.7);
+}
 @supports (backdrop-filter: blur(15px)) {
   .dialog, .mainDrawer, .toast, .nowPlayingBarTop {
     backdrop-filter: blur(15px);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.35);
   }
 }
 
@@ -14,7 +17,47 @@
   filter: none;
 }
 
+/*Cosmetic fixes for quirks (drop down padding and dialogue hover rounding)*/
+.detailTrackSelect {
+    padding-left: .2em !important;
+}
+@media all and (max-width: 100em){
+   .detailTrackSelect {
+     padding-left: .5em !important;
+  }
+}
+.actionSheetMenuItem:hover {
+  border-radius: 0 !important;
+}
+
+/*Card indicators*/
+.cardIndicators {
+    right: 0;
+    top: 0;
+}
+.innerCardFooter {
+  border-radius: 0px var(--rounding) !important;
+  box-shadow: 1px -1px 4px 0 rgba(0,0,0,0.3);
+}
+.countIndicator, .playedIndicator {
+  border-radius: 0px var(--rounding) !important;
+  box-shadow: -1px 1px 4px 0 rgba(0,0,0,0.3);
+}
+.countIndicator {
+  background: rgba(var(--accent),0.8);
+}
+.playedIndicator, .innerCardFooter {
+  background: rgba(0,0,0,0.4)
+}
+
 /*Accenting*/
+.button-flat:hover {
+	background: rgba(var(--accent),0.25);
+}
+.paper-icon-button-light:hover {
+  background-color: rgba(var(--accent),0.25) !important;
+}
+
 .navMenuOption-selected {
   color: white;
 }
@@ -46,16 +89,19 @@ a[data-role="button"] {
   box-shadow: 0px 0px 5px rgb(var(--accent)) !important;
   border: solid 1px rgba(var(--accent),0.6) !important;
 }
+.cardOverlayContainer {
+  border: solid 1px rgba(var(--accent),0.0) !important;
+}
 
 /*Various box-shadows*/
 .cardBox:not(.visualCardBox) .cardPadder, .cardContent-shadow {
     box-shadow: none !important;
 }
-body, h1, h2, h3, h4 {
-  text-shadow: 0px 0px 3px rgba(0,0,0,.4) !important;
+body, h1, h2, h3, h4, .textActionButton, .emby-button-foreground  {
+  text-shadow: 0px 0px 4px rgba(0,0,0,.6) !important;
 }
 .cardImageContainer {
-    box-shadow: 0 0 3px 0 rgba(0,0,0,.4) !important;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.6) !important;
 }
 
 /*Change look of fields*/
@@ -84,11 +130,11 @@ body, h1, h2, h3, h4 {
 
 /*Style backdrop*/
 .backdropImage {
-  filter: blur(18px) saturate(120%) contrast(120%) brightness(45%);
+  filter: blur(18px) saturate(120%) contrast(120%) brightness(40%);
 }
 @media all and (max-width: 32em) {
   .itemBackdrop {
-    filter: blur(18px) saturate(200%) contrast(160%) brightness(25%);
+    filter: blur(18px) saturate(120%) contrast(120%) brightness(40%);
   }
 }
 

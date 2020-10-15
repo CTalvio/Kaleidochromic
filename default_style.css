@@ -26,8 +26,68 @@
      padding-left: .5em !important;
   }
 }
+
 .actionSheetMenuItem:hover {
   border-radius: 0 !important;
+}
+
+.itemsContainer>.card>.cardBox {
+   margin-left: 0.6em !important;
+}
+
+@media all and (min-width: 131.25em){
+  #castContent .cardScalable {
+    width: calc(6.3vw - 1.2em) !important; 
+    height: calc(6.3vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 120em) and (max-width: 131.25em){
+  #castContent .cardScalable {
+    width:  calc(6.4vw - 1.2em) !important; 
+    height: calc(6.4vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 100em) and (max-width: 120em){
+  #castContent .cardScalable {
+    width:  calc(7.6vw - 1.2em) !important; 
+    height: calc(7.6vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 87.5em) and (max-width: 100em){
+  #castContent .cardScalable {
+    width:  calc(9.3vw - 1.2em) !important; 
+    height: calc(9.3vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 75em) and (max-width: 87.5em){
+  #castContent .cardScalable {
+    width:  calc(10.5vw - 1.2em) !important; 
+    height: calc(10.5vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 50em) and (max-width: 75em){
+  #castContent .cardScalable {
+    width:  calc(15vw - 1.2em) !important; 
+    height: calc(15vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 43.75em) and (max-width: 50em){
+  #castContent .cardScalable {
+    width:  calc(20.1vw - 1.2em) !important; 
+    height: calc(20.1vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 25em) and (max-width: 43.75em){
+  #castContent .cardScalable {
+    width:  calc(31.2vw - 1.2em) !important; 
+    height: calc(31.2vw - 1.2em) !important;
+  }
+}
+@media all and (max-width: 25em){
+  #castContent .cardScalable {
+    width:  calc(40vw - 1.2em) !important;
+    height: calc(40vw - 1.2em) !important;
+  }
 }
 
 /*Card indicators*/

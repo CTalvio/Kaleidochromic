@@ -186,6 +186,16 @@ body, h1, h2, h3, h4, .textActionButton, .emby-button-foreground  {
   border: 2px solid rgba(var(--accent), 0.8) !important;
 }
 
+progress {
+  border: 2px solid rgba(255, 255, 255, 0.22);
+}
+progress::-webkit-progress-bar {
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+.taskProgressOuter {
+  border: 2px solid rgba(255, 255, 255, 0.22);
+}
+
 /*Style backdrop*/
 .backdropImage {
   filter: blur(18px) saturate(120%) contrast(120%) brightness(40%);

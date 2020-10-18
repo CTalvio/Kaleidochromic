@@ -190,7 +190,7 @@ progress {
   border: 2px solid rgba(255, 255, 255, 0.22);
 }
 progress::-webkit-progress-bar {
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  border: 0px solid rgba(255, 255, 255, 0.22);
 }
 .taskProgressOuter {
   border: 2px solid rgba(255, 255, 255, 0.22);

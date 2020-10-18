@@ -134,9 +134,7 @@ a[data-role="button"] {
   background: rgba(var(--accent), 0.8) !important;
 	transition: all 0.2s !important;
 }
-.button-link {
-    color: rgb(var(--accent));
-}
+
 /*Glow accent*/
 .raised.homeLibraryButton {
     box-shadow: 0px 0px 5px rgba(var(--accent), 0) !important;

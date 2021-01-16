@@ -91,9 +91,10 @@
 }
 
 /*Card indicators*/
-.cardIndicators {
-    right: 0;
-    top: 0;
+.cardIndicators,
+.listItemIndicators {
+  right: 0;
+  top: 0;
 }
 .innerCardFooter {
   border-radius: 0px var(--rounding) !important;

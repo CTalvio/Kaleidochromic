@@ -3,8 +3,11 @@
 :root {--accent: 98, 121, 205;}
 :root {--rounding: 12px;}
 
-.dialog, .mainDrawer, .toast, .nowPlayingBarTop {
-  background-color: rgba(0, 0, 0, 0.7);
+.dialog,
+.mainDrawer,
+.toast,
+.nowPlayingBarTop {
+    background-color: rgba(8, 8, 8, 0.85);
 }
 @supports (backdrop-filter: blur(15px)) {
   .dialog, .mainDrawer, .toast, .nowPlayingBarTop {
@@ -112,6 +115,11 @@
 }
 
 /*Accenting*/
+.backgroundContainer,
+.formDialogHeader,
+.formDialogFooter {
+    background-color: rgba(var(--accent),0.15) !important;
+}
 .button-flat:hover {
 	background: rgba(var(--accent),0.25);
 }
@@ -164,27 +172,28 @@ body, h1, h2, h3, h4, .textActionButton, .emby-button-foreground  {
 }
 
 /*Change look of fields*/
+fieldset {
+    border: 1px solid rgba(var(--accent), 0.3);
+}
 .checkboxOutline,
 .emby-input,
 .emby-textarea,
 .emby-select-withcolor {
-  border: 2px solid rgba(255, 255, 255, 0.22);
+  border: none !important;
+  background: rgba(0, 0, 0, 0.5); 
 }
 
 /*Change look of in-focus fields*/
-.emby-input:focus, 
-.emby-textarea:focus, 
-.emby-select-withcolor:focus {
-  background: rgba(var(--accent), 0.1) !important; 
-}
+.emby-checkbox:checked + span + .checkboxOutline,
+.emby-input:focus,
 .emby-textarea:focus,
 .emby-select-withcolor:focus,
-.emby-input:focus,
 .itemSelectionPanel {
-  border: 2px solid rgba(var(--accent), 0.8) !important;
+  border: none !important;
+  background: rgba(var(--accent), 0.25) !important;
 }
-.emby-checkbox:checked + span + .checkboxOutline {
-  border: 2px solid rgba(var(--accent), 0.8) !important;
+.checkboxIcon {
+    color: rgba(var(--accent));
 }
 
 progress {

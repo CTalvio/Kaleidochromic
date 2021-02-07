@@ -47,11 +47,9 @@ Don't like my transparent view progress overlay? Use this to go back to the old 
 
 ### Accent color presets 
 
-Blue restores some of the default jellyfin blue accenting, while purple uses... Well, purple, in a Jellyfin shade of course.
+Blue restores some of the default jellyfin blue accenting.
 ```css
 @import url('https://ctalvio.github.io/Monochromic/jfblue_style.css');
-
-@import url('https://ctalvio.github.io/Monochromic/jfpurple_style.css');
 ```
 
 ### Modify rounding

@@ -47,7 +47,7 @@ Don't like my transparent view progress overlay? Use this to go back to the old 
 
 ### Accent color presets 
 
-Blue restores some of the default jellyfin blue accenting.
+Blue restores the default jellyfin blue shade for accenting.
 ```css
 @import url('https://ctalvio.github.io/Monochromic/jfblue_style.css');
 ```

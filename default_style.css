@@ -6,11 +6,11 @@
 .dialog,
 .mainDrawer,
 .toast,
-.nowPlayingBarTop {
+.appfooter {
     background-color: rgba(8, 8, 8, 0.85);
 }
 @supports (backdrop-filter: blur(15px)) {
-  .dialog, .mainDrawer, .toast, .nowPlayingBarTop {
+  .dialog, .mainDrawer, .toast, .appfooter {
     backdrop-filter: blur(15px);
     background-color: rgba(0, 0, 0, 0.35);
   }

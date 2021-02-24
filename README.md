@@ -59,7 +59,7 @@ Don't like my transparent view progress overlay? Use this to go back to the old 
 This add-on turns the cover image on the mobile item page into a backdrop, since mobile on 10.7.0 has no backdrop for library items on mobile.
 
 ```css
-@import url('https://ctalvio.github.io/Monochromic/backdrop-hack_style.css');
+@import url('https://ctalvio.github.io/Kaleidochromic/backdrop-hack_style.css');
 ```
 
 ### Accent color presets 

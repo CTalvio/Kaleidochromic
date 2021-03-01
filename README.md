@@ -34,7 +34,7 @@ This theme has some additional options, they can allow the use of a custom accen
 A different itempage to the default of the theme, more reminiscient of "vanilla" as it does not remove the backdrop banner.
 
 ```css
-@import url('https://ctalvio.github.io/Monochromic/alternate-itempage_style.css');
+@import url('https://ctalvio.github.io/Kaleidochromic/alternate-itempage_style.css');
 ```
 ![eight](screenshots/8.png)
 

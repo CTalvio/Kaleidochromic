@@ -26,3 +26,6 @@
     top: 0;
     filter: blur(18px) saturate(120%) contrast(120%) brightness(40%);
 }
+.itemBackdrop::after {
+    background: rgba(0,0,0,.26) !important;
+}

@@ -177,6 +177,9 @@ body, h1, h2, h3, h4, .textActionButton, .emby-button-foreground  {
 }
 
 /*Change look of fields*/
+.infoBanner {
+    background: rgba(var(--accent),0.15) !important;
+}
 fieldset {
     border: 1px solid rgba(var(--accent), 0.3);
 }

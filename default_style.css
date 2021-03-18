@@ -123,7 +123,9 @@
 .preload {
     background-color: black;
 }
-.backgroundContainer,
+.backgroundContainer {
+    background-color: rgba(var(--accent),0.17) !important;
+}
 .formDialogHeader,
 .formDialogFooter {
     background-color: rgba(var(--accent),0.15) !important;

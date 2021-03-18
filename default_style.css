@@ -120,6 +120,9 @@
     border-right: solid 1px rgba(var(--accent), 1) !important;
 }
 
+.preload {
+    background-color: black;
+}
 .backgroundContainer,
 .formDialogHeader,
 .formDialogFooter {
